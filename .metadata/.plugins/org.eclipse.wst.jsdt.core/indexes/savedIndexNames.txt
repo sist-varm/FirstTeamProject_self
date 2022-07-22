@@ -1,0 +1,15 @@
+INDEX VERSION 1.4+/Users/varm/sist/연습파일/practice/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1082811409.index
+1489878756.index
+2819621128.index
+3253049067.index
+22503740.index
+1769255504.index
+2773096003.index
+3525641007.index
+701008659.index
+715118270.index
+1958062112.index
+2050248101.index
+1538951955.index
+3417962925.index

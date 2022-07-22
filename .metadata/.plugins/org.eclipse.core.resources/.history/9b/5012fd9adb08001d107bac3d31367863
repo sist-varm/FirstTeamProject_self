@@ -1,0 +1,162 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 15px;
+  min-width: 400px;
+  height: 800px;
+}
+.container header {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header h3 {
+  margin-left: 45px;
+  font-weight: 700;
+}
+.container header nav {
+  margin-right: 45px;
+}
+.container header nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+.container header nav a:hover {
+  color: #0a7791;
+}
+.container header nav .login {
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+.container .content {
+  width: 100%;
+  height: 90%;
+  background-color: pink;
+}
+.container .content .content-main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 60%;
+  position: relative;
+  top: 100px;
+}
+.container .content .content-main .text {
+  padding-top: 40px;
+}
+.container .content .content-main .text h3 {
+  color: #0a7791;
+  font-weight: 700;
+}
+.container .content .content-main .text h1 {
+  display: block;
+  position: relative;
+  text-align: left;
+  font-size: 99px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0px 10px #db7093;
+}
+.container .content .content-main .input-container {
+  position: relative;
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 80px;
+}
+.container .content .content-main .input-container #code {
+  width: 75%;
+  height: 100%;
+  padding-left: 20px;
+  border: none;
+  font-size: 16px;
+}
+.container .content .content-main .input-container #book {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  top: 2px;
+  margin-left: -5px;
+  border: none;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0a7791;
+  cursor: pointer;
+}
+.container .content .content-main .input-container #book:hover {
+  background-color: #0a7791;
+  color: white;
+}
+.container .content .icons {
+  display: block;
+  position: relative;
+  top: 220px;
+  right: 50px;
+  float: right;
+}
+.container .content .icons i {
+  text-align: center;
+  margin-left: 60px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  color: #0a7791;
+  cursor: pointer;
+}
+.container .content .icons i:hover {
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 2px 4px grey;
+}
+</style>
+</head>
+<body>
+<div class="content">
+      
+     <div class="content-main">
+     
+     <div class="text">
+     <h3>Welcome to event8.io</h3>
+     <h1>Tropical Summer</h1>
+     </div>
+     
+     <div class="input-container">
+     <input type="text" name="code" id="code" placeholder="Enter your secret code here">
+     <button id="book">Book</button>
+      </div>
+         
+   </div>
+ </div>
+</body>
+</html>

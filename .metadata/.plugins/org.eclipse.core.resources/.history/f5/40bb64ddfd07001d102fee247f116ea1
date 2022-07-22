@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+      <h3>event8.io</h3>
+      
+      <nav>
+        <a href="#">About Us</a>
+        <a href="#">Events</a>
+        <a href="#">Package</a>
+        <a href="#">Contact</a>
+        <a href="#" class="login">Login</a>
+      </nav>
+    </header>
+</body>
+</html>

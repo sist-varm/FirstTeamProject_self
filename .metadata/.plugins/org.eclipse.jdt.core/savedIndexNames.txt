@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+/Users/varm/sist/연습파일/practice/.metadata/.plugins/org.eclipse.jdt.core
+2927098108.index
+2278932571.index
+3682550591.index
+1357358878.index
+2742871565.index
+792423901.index
+1229955671.index
+22503740.index
+700035012.index
+2819621128.index
+2839382140.index
+1136756287.index
+1865797976.index
